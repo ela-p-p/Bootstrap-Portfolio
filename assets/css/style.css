@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background: gray;
+}
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    min-height: 90vh;
+}
+
+
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.header {
+    background: #ffffff;
+    height: 13.5vh;
+    border: .1vh solid #cccccc;
+}
+
+.name {
+    background:  #4aaaa5;
+    color: #ffffff;
+    width: 19vw;
+    float: left;
+    margin-left: 13vw;
+}
+ 
+.nav {
+    color: #4aaaa5;
+    background: #ffffff;
+    border-color: #cccccc;
+    width: 35vh;
+    float: right;
+    padding-top: 5vh;
+    margin-right: 10vw;
+}
+
+.content {
+    background: #ffffff;
+    width: 69vw;
+    height: 61vh;
+    margin: 5vh auto 10vh auto;
+    border: 0.5vh solid  #dddddd;
+    padding: 0 1vw 0 1vw;
+    line-height: 1.2em;
+    font-size: 1.1em;        
+}
+
+#image {
+    float: left;
+    padding: 1vmax 1vmax 1vmax 0;
+}
+    
+#title {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-bottom: .5vh solid #dddddd;
+    padding-left: 1vw;
+}
+
+.nav_contact {
+    background: #ffffff;
+    border-color: #dddddd;
+    width: 18vw;
+    height: 25vh;
+    border: 2px solid  #dddddd;
+    float: right;
+    margin: 7vh 15vw auto auto;
+    padding: 0 1vw 1vh 1vw;
+
+}
+
+#links {
+    text-align: center;
+    padding-left: 1vw;
+    padding-top: 2vh;
+    margin: 0.5vmin;
+}
+
+.with {
+    border-bottom: 0.5vh solid #dddddd;
+    text-align: center;
+    padding: 0vh 1vw 0vh 1vw;
+}
+
+.contact {
+    background: #ffffff;
+    width: 42vw;
+    height: 80vh;
+    margin: 7vh 7vw 20vh 13vw;
+    border: 0.5vh solid  #dddddd;
+    padding: 0 2vw 0 2vw;
+}
+
+.portfolio {
+    width: 56vw;
+    height: 138vh;
+    background: #ffffff;
+    border: 0.5vh solid  #dddddd;
+    margin: 3vh 20vw 10vh auto;
+    padding: 1vh 2vw 0px 2vw;
+}
+
+#form {
+    padding-top: 2vmax;
+    line-break: loose;
+}
+
+#box-set {
+    padding: 0.5vmax;
+    margin: 0 auto 0 auto;
+}   
+ 
+.box1 {
+    float: left;
+    margin: 1vmax;     
+}
+
+.box2 {
+    float: left;
+    margin: 1vmax;
+}
+
+.box3 {
+    float: left;
+    margin: 1vmax;
+}
+
+.box4 {
+    margin: 1vmax;
+    float: left;   
+} 
+
+.box5 {
+    margin: 1vmax;
+    float: left;
+}
+.box6 {
+    margin: 1vmax;
+    float: left;
+}
+
+.box7 {
+    margin: 1vmax;
+    float: left;
+}
+
+.box8 {
+    margin: 1vmax;
+    float: left;
+}
+
+.box9 {
+    margin: 1vmax;
+    float: left;
+}
+
+#footer {
+    background: #666666;
+    height: 8vh;
+    text-align: center;
+    padding: 1vmax;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+.contact {
+    width: 70vw;
+    height: auto;
+}
+.name {
+    margin-left: -2vw;
+    width: 40vw;
+    text-align: center;
+    height: 8vh;
+    padding-bottom: 10vh;
+}
+.header {
+    width: 100vw;
+    margin-left: -2vh;
+    height: 10vh;
+}
+.nav_contact {
+
+    left: 0vw;
+    width: 60vw;
+    border: none;
+    background: transparent;
+    padding-top: 5vh;
+}
+.with {
+    display: none;
+}
+#image {
+    float: none;
+    margin-left: 22vw;
+
+}
+
+.content {
+    width: 90vw;
+    margin-top: 9vh;
+    height: 90vh;
+    font-size: 0.9em;
+}
+.portfolio {
+    width: 88vw;
+    margin-top: 9vh;
+    margin-left: 1vw;
+    height: 150vh;
+}
+#box-set {
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+}
+
+@media screen and (max-width: 640px) {
+.name {
+    position: absolute;
+    top: -10vh;
+    margin-left: -2vw;
+    width: 100vw;
+    text-align: center;
+    height: 8vh;
+    padding-bottom: 10vh;
+}
+.header {
+    position: relative;
+    top: 6vh;
+    width: 100vw;
+    margin-left: -2vw;
+    height: 7vh;
+}
+
+.nav {
+    padding: 2vh 0 0 0;
+    margin-right: 20vw;
+    
+}
+#image {
+    float: none;
+    margin-left: 22vw;
+
+}
+
+.content {
+    width: 90vw;
+    margin-top: 9vh;
+    height: 90vh;
+    font-size: 0.9em;
+}
+.portfolio {
+    width: 88vw;
+    margin-top: 9vh;
+    margin-left: 1vw;
+    height: 200vh;
+}
+#box-set {
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+.nav_contact {
+
+    left: -2vw;
+    width: 60vw;
+    border: none;
+    background: transparent;
+    padding-top: 5vh;
+}
+.with {
+    display: none;
+}
+
+.contact {
+    width: 100vw;
+    margin-top: 9vh;
+    margin-left: -5vw;
+    height: auto;
+    padding: 0 4vw 2vh 4vw;
+    
+}
+
+}
