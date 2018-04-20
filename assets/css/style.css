@@ -11,9 +11,10 @@ body {
 }
 
 
-h5, {
+.card-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    border-bottom: .3vh solid #cccccc;
 }
 
 .nav {
@@ -30,7 +31,7 @@ h5, {
             
 }
  
-.content {
+/* .content {
     background: #ffffff;
     width: 69vw;
     height: 61vh;
@@ -39,19 +40,19 @@ h5, {
     padding: 0 1vw 0 1vw;
     line-height: 1.2em;
     font-size: 1.1em;        
-}
+} */
 
 #image {
     float: left;
     padding: 1vmax 1vmax 1vmax 0;
 }
     
-#title {
+/* #title {
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     border-bottom: .5vh solid #dddddd;
     padding-left: 1vw;
-}
+} */
 
 .nav_contact {
     background: #ffffff;
@@ -87,25 +88,21 @@ h5, {
     padding: 0 2vw 0 2vw;
 }
 
-.portfolio {
+/* .portfolio {
     width: 56vw;
     height: 138vh;
     background: #ffffff;
     border: 0.5vh solid  #dddddd;
     margin: 3vh 20vw 10vh auto;
     padding: 1vh 2vw 0px 2vw;
-}
+} */
 
 #form {
     padding-top: 2vmax;
     line-break: loose;
 }
 
-#box-set {
-    padding: 0.5vmax;
-    margin: 0 auto 0 auto;
-}   
- 
+/*  
 .box1 {
     float: left;
     margin: 1vmax;     
@@ -148,7 +145,7 @@ h5, {
 .box9 {
     margin: 1vmax;
     float: left;
-}
+} */
 
 .footer {
     background: #666666;
