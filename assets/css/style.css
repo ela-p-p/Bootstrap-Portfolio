@@ -30,6 +30,12 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
             
 }
+
+.btn {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
  
 /* .content {
     background: #ffffff;
@@ -42,10 +48,10 @@ body {
     font-size: 1.1em;        
 } */
 
-#image {
+/* #image {
     float: left;
     padding: 1vmax 1vmax 1vmax 0;
-}
+} */
     
 /* #title {
     padding-top: 0.5vh;
@@ -54,7 +60,7 @@ body {
     padding-left: 1vw;
 } */
 
-.nav_contact {
+/* .nav_contact {
     background: #ffffff;
     border-color: #dddddd;
     width: 18vw;
@@ -77,16 +83,16 @@ body {
     border-bottom: 0.5vh solid #dddddd;
     text-align: center;
     padding: 0vh 1vw 0vh 1vw;
-}
+} */
 
-.contact {
+/* .contact {
     background: #ffffff;
     width: 42vw;
     height: 80vh;
     margin: 7vh 7vw 20vh 13vw;
     border: 0.5vh solid  #dddddd;
     padding: 0 2vw 0 2vw;
-}
+} */
 
 /* .portfolio {
     width: 56vw;
@@ -97,55 +103,7 @@ body {
     padding: 1vh 2vw 0px 2vw;
 } */
 
-#form {
-    padding-top: 2vmax;
-    line-break: loose;
-}
 
-/*  
-.box1 {
-    float: left;
-    margin: 1vmax;     
-}
-
-.box2 {
-    float: left;
-    margin: 1vmax;
-}
-
-.box3 {
-    float: left;
-    margin: 1vmax;
-}
-
-.box4 {
-    margin: 1vmax;
-    float: left;   
-} 
-
-.box5 {
-    margin: 1vmax;
-    float: left;
-}
-.box6 {
-    margin: 1vmax;
-    float: left;
-}
-
-.box7 {
-    margin: 1vmax;
-    float: left;
-}
-
-.box8 {
-    margin: 1vmax;
-    float: left;
-}
-
-.box9 {
-    margin: 1vmax;
-    float: left;
-} */
 
 .footer {
     background: #666666;
